@@ -1,0 +1,36 @@
+{
+  "name": "bathroom",
+  "version": "0.0.1",
+  "description": "Redux app with Ducks",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-bathroom/issues"
+  },
+  "dependencies": {
+    "redux-binder": "0.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.0"
+  },
+  "homepage": "https://github.com/nak2k/node-bathroom",
+  "keywords": [
+    "ducks",
+    "redux",
+    "redux-binder"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-bathroom.git"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 -d lib/ src/",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
