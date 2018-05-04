@@ -1,0 +1,15 @@
+:root {
+  --a-color: #551A8B;
+
+  --body-background-color: #f8f8f8;
+
+  --button-background-color: rgba(0, 0, 0, 0);
+  --button-border-color: lightgray;
+
+  --td-border-color: #303F59;
+
+  --th-background-color: #758FA8;
+  --th-border-color: #303F59;
+
+  --base-color: #95989A;
+}
