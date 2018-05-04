@@ -1,6 +1,6 @@
 {
   "name": "bathroom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility for Redux apps using Ducks",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
