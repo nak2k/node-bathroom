@@ -1,0 +1,42 @@
+{
+  "name": "bathroom-example",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Example of bathroom",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-bathroom/issues"
+  },
+  "dependencies": {
+    "bathroom": "..",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "recompose": "^0.27.0",
+    "redux": "^4.0.0",
+    "redux-createreducer": "^2.0.0",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.4.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.7.1",
+    "postcss-modules": "^1.1.0",
+    "postcss-nested": "^3.0.0"
+  },
+  "homepage": "https://github.com/nak2k/node-bathroom/tree/master/example",
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-bathroom.git"
+  },
+  "scripts": {
+    "prebuild": "rm -rf .cache dist",
+    "build": "parcel build src/index.html --no-minify",
+    "prestart": "rm -rf .cache dist",
+    "start": "parcel src/index.html --no-cache"
+  }
+}

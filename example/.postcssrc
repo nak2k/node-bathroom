@@ -1,0 +1,17 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-nested": {
+    },
+    "postcss-modules": {
+      globalModulePaths: [
+        "src/css"
+      ]
+    },
+    "autoprefixer": {
+      "grid": true
+    },
+    "cssnano": {
+    }
+  }
+}
