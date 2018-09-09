@@ -5,7 +5,7 @@ Utility for Redux apps using [Ducks](https://github.com/erikras/ducks-modular-re
 ## Installation
 
 ```
-npm i bathroom -S
+npm i bathroom
 ```
 
 ## Usage
